@@ -1,5 +1,6 @@
 ---
 layout: default
+site.show_downloads: false
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
