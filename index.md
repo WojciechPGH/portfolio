@@ -1,6 +1,5 @@
 ---
 layout: default
-site.show_downloads: false
 ---
 <header>
       <div class="container">
