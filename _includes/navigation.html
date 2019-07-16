@@ -12,13 +12,13 @@ li {
 <nav>
   <ul>
     <li>
-      <a href="{{site.baseurl}}/" {% if page.url == "{{site.baseurl}}/" %}style="color: red;"{% endif %}>Home</a>
+      <a href="{{site.baseurl}}/" {% if "{{site.baseurl}}page.url" == "{{site.baseurl}}/" %}style="color: YellowGreen;"{% endif %}>Home</a>
     </li>
     <li>
-      <a href="{{site.baseurl}}/About.html" {% if page.url == "{{site.baseurl}}/About.html/" %}style="color: teal;"{% endif %}>About Me</a>
+      <a href="{{site.baseurl}}/About.html" {% if "{{site.baseurl}}page.url" == "{{site.baseurl}}/About.html" %}style="color: YellowGreen;"{% endif %}>About Me</a>
     </li>
     <li>
-      <dt {% if page.url == "/About.html" %}style="color: teal;"{% endif %}>jakis text</dt>
+      <dt {% if page.url == "/About.html" %}style="color: YellowGreen;"{% endif %}>jakis text</dt>
       <dt>site baseurl = {{site.baseurl}}</dt>
       <dt>page url = {{page.url}}</dt>
     </li>
