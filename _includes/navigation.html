@@ -19,10 +19,10 @@ li {
     </li>
     <li>
       <dt {% if page.url == "/About.html" %}style="color: red;"{% endif %}>jakis text</dt>
-      {{site.baseurl}}
-      {{page.url}}
-      {{page.dir}}
-      {page.path}}
+      <dt>site baseurl = {{site.baseurl}}</dt>
+      <dt>page url = {{page.url}}</dt>
+      <dt>page dir = {{page.dir}}</dt>
+      <dt>page path = {{page.path}}</dt>
     </li>
   </ul>
 </nav>
