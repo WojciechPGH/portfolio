@@ -12,10 +12,10 @@ li {
 <nav>
   <ul>
     <li>
-      <a href="{{site.baseurl}}/" {% if "{{site.baseurl}}page.url" == "{{site.baseurl}}/" %}style="color: YellowGreen;"{% endif %}>Home</a>
+      <a href="{{site.baseurl}}/" {% if page.url == "/" %}style="color: YellowGreen;"{% endif %}>Home</a>
     </li>
     <li>
-      <a href="{{site.baseurl}}/About.html" {% if "{{site.baseurl}}page.url" == "{{site.baseurl}}/About.html" %}style="color: YellowGreen;"{% endif %}>About Me</a>
+      <a href="{{site.baseurl}}/About.html" {% if page.url == "/About.html" %}style="color: YellowGreen;"{% endif %}>About Me</a>
     </li>
     <li>
       <dt {% if page.url == "/About.html" %}style="color: YellowGreen;"{% endif %}>jakis text</dt>
