@@ -18,11 +18,9 @@ li {
       <a href="{{site.baseurl}}/About.html" {% if page.url == "{{site.baseurl}}/About.html/" %}style="color: teal;"{% endif %}>About Me</a>
     </li>
     <li>
-      <dt {% if page.url == "/About.html" %}style="color: red;"{% endif %}>jakis text</dt>
+      <dt {% if page.url == "/About.html" %}style="color: teal;"{% endif %}>jakis text</dt>
       <dt>site baseurl = {{site.baseurl}}</dt>
       <dt>page url = {{page.url}}</dt>
-      <dt>page dir = {{page.dir}}</dt>
-      <dt>page path = {{page.path}}</dt>
     </li>
   </ul>
 </nav>
