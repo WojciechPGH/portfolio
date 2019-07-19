@@ -2,3 +2,4 @@ theme: jekyll-theme-hacker
 title: Wojciech Paluch
 baseurl: /portfolio
 show_downloads: true
+exclude: [.vs, slnx.sqlite]

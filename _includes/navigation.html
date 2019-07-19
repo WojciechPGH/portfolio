@@ -1,26 +1,31 @@
 <style>
-li {
-  display: inline;
-}
-  li:before {
-    content: "|"
-  }
-  ul:after {
-    content: "|"
-  }
+    li {
+        display: inline;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+        li:before 
+        {
+            content: "|"
+        }
+
+    ul {
+        margin-left: 12%;
+    }
+    ul:after {
+        content: "|"
+    }
 </style>
 <nav>
-  <ul>
-    <li>
-      <a href="{{site.baseurl}}/" {% if page.url == "/" %}style="color: YellowGreen;"{% endif %}>Home</a>
-    </li>
-    <li>
-      <a href="{{site.baseurl}}/About.html" {% if page.url == "/About.html" %}style="color: YellowGreen;"{% endif %}>About Me</a>
-    </li>
-    <li>
-      <dt {% if page.url == "/About.html" %}style="color: YellowGreen;"{% endif %}>jakis text</dt>
-      <dt>site baseurl = {{site.baseurl}}</dt>
-      <dt>page url = {{page.url}}</dt>
-    </li>
-  </ul>
+    <ul>
+        {% capture url_path %}{{site.baseurl}}{{page.url}}{% endcapture %}
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.link }}" {% if item.link==url_path %}style="color: yellowgreen;" {% endif %}>
+                {{- item.name -}}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </nav>
