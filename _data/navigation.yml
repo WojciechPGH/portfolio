@@ -1,8 +1,8 @@
 - name: Welcome
   link: /portfolio/
 - name: Portfolio
-  link: /portfolio/myportfolio
+  link: /portfolio/myportfolio.html
 - name: About Me
-  link: /portfolio/about
+  link: /portfolio/about.html
 - name: Contact
-  link: /portfolio/contact
+  link: /portfolio/contact.html
