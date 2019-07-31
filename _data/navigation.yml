@@ -1,7 +1,7 @@
-- name: Home
+- name: Welcome
   link: /portfolio/
 - name: Portfolio
-  link: /portfolio/my_portfolio.html
+  link: /portfolio/myportfolio.html
 - name: About Me
   link: /portfolio/about.html
 - name: Contact

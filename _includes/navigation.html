@@ -1,31 +1,14 @@
-<style>
-    li {
-        display: inline;
-        vertical-align: middle;
-        text-align: center;
-    }
-
-        li:before 
-        {
-            content: "|"
-        }
-
-    ul {
-        margin-left: 12%;
-    }
-    ul:after {
-        content: "|"
-    }
-</style>
 <nav>
     <ul>
         {% capture url_path %}{{site.baseurl}}{{page.url}}{% endcapture %}
         {% for item in site.data.navigation %}
-        <li>
-            <a href="{{ item.link }}" {% if item.link==url_path %}style="color: yellowgreen;" {% endif %}>
-                {{- item.name -}}
-            </a>
-        </li>
+        <div class="navLink">
+            <li>
+                <a href="{{ item.link }}" {% if item.link==url_path %}style="color: yellowgreen;" {% endif %}>
+                    {{- item.name -}}
+                </a>
+            </li>
+        </div>
         {% endfor %}
     </ul>
 </nav>
