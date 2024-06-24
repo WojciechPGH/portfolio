@@ -1,3 +1,5 @@
+- name: Welcome
+  link: /portfolio/
 - name: About Me
   link: /portfolio/about.html
 - name: Portfolio

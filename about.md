@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# Hello, I'am Wojtek
+# Hello, I am Wojtek
 
 IT student, cat owner, volleyball enthusiast (both playing and cheering national team). 
 Games and book lover, especially polish fantasy (Witcher, Achaja, Inquisytor saga). I live in small city near Lublin in Poland.
