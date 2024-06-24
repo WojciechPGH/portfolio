@@ -3,3 +3,4 @@ title: Wojciech Paluch
 baseurl: /portfolio
 show_downloads: true
 exclude: [.vs, slnx.sqlite]
+host: 0.0.0.0
