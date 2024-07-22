@@ -6,7 +6,7 @@ title: Contact
 <div class="container">
     <p>Thanks for taking an interest in my skills!</p>
     <p>I will happily take opportunity to expand my skill set.</p>
-    <p>Feel free to email me at <a href="mailto:hudy0070@gmail.com">hudy0070@gmail.com</a> or via contact form below.</p>
+    <p>Feel free to email me at <a href="mailto:it@wojciech-paluch.pl">it@wojciech-paluch.pl</a> or via contact form below.</p>
 </div>
 
 <div class="mailform">
